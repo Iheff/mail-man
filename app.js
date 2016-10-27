@@ -29,7 +29,7 @@ app.get('/mail/:client', function (req, res) {
         console.log(req.params.client);
         sass.render({ file: 'styles/sass/'+req.params.client+'.scss' }, function(err, result) {
             obj.style = result.css;
-            obj.assetDir = 'https://storage.googleapis.com/cdn-email-assets'; //'/'+req.params.client;
+            obj.assetDir = 'http://storage.googleapis.com/cdn-email-assets'; //'/'+req.params.client;
             res.render(req.params.client, obj);
 
             var template = swig.compileFile("views/"+req.params.client+".html")
