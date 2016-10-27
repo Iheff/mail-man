@@ -1,0 +1,10 @@
+views/1*
+views/2*
+assets/1*
+assets/2*
+data/1*
+data/2*
+node_modules/*
+dist/*
+**1.*
+**2.*

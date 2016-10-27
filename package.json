@@ -1,0 +1,36 @@
+{
+  "name": "mail-man",
+  "version": "0.0.1",
+  "description": "HTML Email assistant",
+  "main": "app.js",
+  "scripts": {
+    "test": "n/a",
+    "start": "nodemon --watch . -e scss,sass,less,css,html,js,json app.js",
+    "stop": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n/a.git"
+  },
+  "keywords": [
+    "mail"
+  ],
+  "author": "Steffen Cope",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "forever": "^0.15.2",
+    "fs": "0.0.1-security",
+    "juice": "^3.0.1",
+    "node-sass": "^3.10.1",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "nodemon": "^1.11.0"
+  }
+}
