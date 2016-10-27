@@ -1,0 +1,42 @@
+// Variables
+
+$white: #ffffff;
+$offWhite: darken($white, 20%);
+$grey: #ededed;
+$blue: #00263d;
+$light-blue: #9cc3e4;
+$red: #de034b;
+$text: #333;
+$font-family: Arial, sans-serif;
+$feature-font: "Times New Roman", Times, serif;
+$padding: 30px;
+$mail-width: 600px;
+$titleSize: 26px;
+$titleLineHeight: $titleSize * 1.6;
+$readingTextSize: 16px;
+$readingTextLineHeight: $readingTextSize * 1.6;
+$footer-bg: #454545;
+$twitter-blue: #28c2fc;
+$orange: #e87309;
+
+body {
+    background: $grey;
+    padding: 0;
+    margin: 0px;
+    position: relative;
+    height: 100%;
+}
+
+.text-cell, td {
+    font-family: $font-family;
+    color: $text;
+}
+
+.frame {
+    background: $grey;
+    width: 100%;
+    height: 100%;
+}
+
+
+
