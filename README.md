@@ -18,6 +18,6 @@ The files;
 
 Will be bundled together with inline style, and produce HTML at dist/client-name.html
 
-You can work on the tamplate and view at concurrently at http://localhost:3000/mail/client-name.
+You can work on the template and view at concurrently at http://localhost:3000/mail/client-name.
 
 All compilation is done on request, and a file change will totally restart the server
